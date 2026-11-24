@@ -1,0 +1,19 @@
+Versión instalable (tableta o móvil, con icono y a pantalla completa, también sin conexión)
+
+1. Sube el contenido de esta carpeta (index.html, manifest.webmanifest, sw.js y los dos iconos) a cualquier
+   alojamiento web con https. Opciones gratuitas:
+   - Netlify Drop (https://app.netlify.com/drop): arrastra la carpeta. Reclama el sitio con una cuenta gratuita
+     o se borra pasado un tiempo.
+   - Cloudflare Pages o Vercel (también admiten arrastrar la carpeta).
+   - GitHub Pages.
+2. Abre la dirección en la tableta:
+   - iPad / iPhone (Safari): botón Compartir → «Añadir a pantalla de inicio». Si quieres otro icono (por ejemplo,
+     una foto de tu caja), elígelo antes en Ajustes → «Elegir foto para el icono».
+   - Android (Chrome): menú ⋮ → «Instalar aplicación» (o «Añadir a pantalla de inicio»).
+3. Desde entonces se abre desde su icono, a pantalla completa, y funciona sin conexión.
+
+Tus partidas y campañas se guardan en el navegador de cada dirección: si antes jugabas con el archivo suelto,
+expórtalas desde Ajustes → «Copia de seguridad» e impórtalas con «Restaurar copia» en la versión instalada
+(la copia incluye partida, campañas, mapas, ajustes y la lista de pruebas). La app instalada guarda sus datos
+aparte de Safari.
+Al subir una versión nueva de la carpeta, la app instalada la descarga en segundo plano y la usa al volver a abrirla.
